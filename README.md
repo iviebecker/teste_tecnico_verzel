@@ -38,7 +38,11 @@ A execução pode exigir configurações adicionais ou acesso à aplicação tes
 
 ## Estrutura do repositório
 
-- `planilha/` — casos de teste manuais e resultados.
-- `bugs-e-evidencias/` — exportação dos bugs do Jira e screenshots das evidências.
-- `test_*.py` — scripts de testes automatizados.
-- `.gitignore` — arquivos e diretórios excluídos do controle de versão.
+```text
+teste_tecnico_verzel/
+├── README.md
+├── .gitignore
+├── testes/                  # Scripts de testes automatizados em Python
+├── planilha/                # Planilha de casos de teste
+└── bugs-e-evidencias/       # Relatórios de bugs e evidências dos testes
+```
